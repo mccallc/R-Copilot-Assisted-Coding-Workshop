@@ -38,23 +38,25 @@ Steps:
 
 ## 1.1 Sign-up for Copilot
 
-GitHub Copilot is free for verified students and teachers. Otherwise, Copilot is $10/month or $100/year for their most basic individual account. You can get a free 30-day trial if it is your first time signing up.
+GitHub Copilot *Pro* is free for verified students and teachers. Otherwise, Copilot is free with some limitations (responses are limited to 2,000 code completions and 50 chat messages per month). In today's workshop we will use the free version of Copilot. 
 
-If you are not a student or teacher, you can sign-up for a paid version of Copilot here:
+To get the free version of Copilot, go here and click "Get Started for Free":
 
-<https://github.com/features/copilot/plans>
+<https://github.com/features/copilot>
 
-To get free Copilot for teachers and students you need to apply for benefits here (don’t worry, it’s easy!):
+To get Copilot *Pro* for teachers and students (for free) you need to apply for benefits here (don’t worry, it’s easy!):
 
 <https://education.github.com/discount_requests/application>
 
-You will need to fill out a short application which will ask you some basic information about yourself and your institution. Your institutional email must be associated with your GitHub account (instructions for adding an email to your Github account can be found [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account)). You will need to provide proof of your affiliation. This proof must have **your name**, **a current date,** and **the name of your institution** on it. If your application is rejected, it is most likely because your proof of affiliation was missing one of these three things (but, you can always apply again with new proof!). For example, some UC Berkeley student IDs do not have a date on them, so they will not be accepted. You may also have to follow some additional steps to verify your GitHub account, make sure to check your email for instructions. We have also heard of a bug that results in **.png files not being accepted while .jpeg files are**.
+You will need to fill out a short application which will ask you some basic information about yourself and your institution. Your institutional email must be associated with your GitHub account (instructions for adding an email to your Github account can be found [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/adding-an-email-address-to-your-github-account)). 
+
+You will need to provide proof of your affiliation. This proof must have **your name**, **a current date,** and **the name of your institution** on it. If your application is rejected, it is most likely because your proof of affiliation was missing one of these three things (but, you can always apply again with new proof!). For example, some UC Berkeley student IDs do not have a date on them, so they will not be accepted. You may also have to follow some additional steps to verify your GitHub account, make sure to check your email for instructions. We have also heard of a bug that results in **.png files not being accepted while .jpeg files are**.
 
 If you are a UC Berkeley student, the most straightforward way to get proof is to download a certificate of enrollment verification by going to _CalCentral > My Academics > Enrollment Verification (under Academic Records) > View or Print Enrollment via Self Service > Obtain an enrollment certificate_. This will give you a PDF enrollment certificate which you can screenshot and submit for proof of affiliation (you need to use a screenshot because the application does not accept PDFs).
 
 If you have a problem submitting your application please submit a D-Lab consulting request here with the subject line “GitHub Co-pilot workshop: applying for student developer pack”: <https://dlab.berkeley.edu/consulting/submit-consulting-request>
 
-Note: when you are creating a GitHub Co-pilot account you will be prompted to select whether GitHub can allow suggestions matching public code. You may want to select `Blocked` if you are worried about licensing and intellectual property, but for most of us it is better to select `Allowed` so we get access to more sources for our code.
+Note: when you are creating a GitHub Copilot account you will be prompted to select whether GitHub can allow suggestions matching public code. You may want to select `Blocked` if you are worried about licensing and intellectual property, but for most of us it is better to select `Allowed` so we get access to more sources for our code.
 ![Option to allow suggestions matching public code in GitHub Co-pilot](images/copilot_signup.png)
 
 
