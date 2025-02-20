@@ -1,16 +1,12 @@
-# D-Lab's R Copilot Assisted Coding Workshop
+# Maxwell's R Copilot Assisted Coding Workshop
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This repository contains the materials for D-Lab R Copilot Assisted Coding Workshop. 
+This repository contains the materials for the Maxwell R Copilot Assisted Coding Workshop. 
 
 ### Prerequisites
 
-Though GitHub Copilot is language agnostic, our examples will be in R. Therefore, we recommend attending D-Lab's [R
-Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) series
-prior to this workshop. If you use a language that is not R, you are still welcome to attend. Many of the examples will have analogs in other languages, such as Python.
-
-Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
+Though GitHub Copilot is language agnostic, our examples will be in R. If you use a language that is not R, you are still welcome to attend. Many of the examples will have analogs in other languages, such as Python.
 
 ## Workshop Goals
 
@@ -67,8 +63,6 @@ The codespace uploads this repository, along with any necessary packages, and
 allows you to run the materials in the cloud in a virtual Visual Studio Code that will look basically like what is on your computer.
 No installation is necessary from your end, you only need an internet browser. To download your work from the codespace, right-click on the file you want to download in the `Explorer` panel on the left-hand side and click `Download...` (Note: you may have to click `Allow` on a security pop-up). If you are comfortable with Git, you can also fork this repository and commit your changes to your fork (instructions [here](https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle#saving-changes-in-a-codespace)). 
 
-**Even if you are using our codespace you must have your own GitHub Copilot subscription; the codespace is linked to your GitHub account.** If you are using a free GitHub account, you automatically get [120 free codespace core-hours per month](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces). This 2 hour workshop should only use 4 core-hours.
-
 ## Run the Code
 
 Now that you have all the required software and materials, you need to open the code.
@@ -91,16 +85,5 @@ Check out the following resources to learn more about Visual Studio Code and Git
 
 * [Overview of Visual Studio Code](https://code.visualstudio.com/docs)
 * [Overview of GitHub Copilot in Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview)
-
-
-# About the UC Berkeley D-Lab
-
-D-Lab works with Berkeley faculty, research staff, and students to advance data-intensive social science and humanities research. Our goal at D-Lab is to provide practical training, staff support, resources, and space to enable you to use R for your own research applications. Our services cater to all skill levels and no programming, statistical, or computer science backgrounds are necessary. We offer these services in the form of workshops, one-to-one consulting, and working groups that cover a variety of research topics, digital tools, and programming languages.  
-
-Visit the [D-Lab homepage](https://dlab.berkeley.edu/) to learn more about us. You can view our [calendar](https://dlab.berkeley.edu/events/calendar) for upcoming events, learn about how to utilize our [consulting](https://dlab.berkeley.edu/consulting) and [data](https://dlab.berkeley.edu/data) services, and check out upcoming [workshops](https://dlab.berkeley.edu/events/workshops).
-
-# Contributors
-
-[Anusha Bishop](https://anushapb.github.io/)
 
 *This repository was created with material from the [codespacer](https://github.com/AnushaPB/codespacer/tree/main) GitHub template created by Anusha Bishop*
