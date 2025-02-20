@@ -1,11 +1,11 @@
 ---
-title: "D-Lab Copilot Assisted Coding Workshop"
+title: "Maxwell Copilot Assisted Coding Workshop"
 output: html_notebook
 ---
 
 ## Learning Objectives
 
-Welcome to the D-Lab GitHub Copilot Workshop. After this workshop, you will be able to:
+Welcome to the Maxwell GitHub Copilot Workshop. After this workshop, you will be able to:
 
 1.  Set-up and navigate Visual Studio Code
    
@@ -64,22 +64,8 @@ First, install the `tidyverse` package. You can install it by running the code b
 ```{r}
 # If you haven't installed tidyverse before, uncomment this line 
 # You may be prompted to pick a CRAN mirror: just choose the first one (0-Cloud [https])
-#install.packages("tidyverse")
+install.packages("tidyverse")
 ```
-
-You will also need the `httpgd` package to display plots interactively in VS Code. You can install it by running the code below.
-
-```{r}
-# if you haven't installed httpgd before, uncomment this line
-#install.packages("httpgd")
-```
-
-💡 **Tip**: Unlike tidyverse or other packages you may actively use when coding, we do not need to load the `httpgd` package everytime (i.e., we don't need to run `library("httpgd")`). `httpgd` just provides the infrastructure for showing plots in VS Code.
-
-Once we have installed the `httpgd` package, you need to set `httpgd` as the default plot viewer. You can do this by: 
-1. Click the settings cog in the lower left hand corner or press `Ctrl + ,` or `Cmd + ,` to open the settings 
-2. Search for `r.plot.useHttpgd` in the search bar
-3. Click on the tick box to set it to true
 
 Check that both tidyverse and httpgd are installed and working by running the code below:
 ```{r}
@@ -178,7 +164,7 @@ ggplot(gap, aes(x = gdpPercap)) +
 Another handy feature of Copilot is in-line suggestions as you type. These suggestions are known as "ghost text" and appear in a lighter gray text after your cursor. You can accept them by pressing `Tab` or ignore them by continuing to type (or click `Esc` to reject them outright). These suggestions can be very helpful for completing code quickly. Suggestions are automatically triggered by the code your write, based on context from the code you have already written. You may notice as you use Copilot more often that the suggestions even learn your "style" of coding.
 
 ### 🥊 Challenge 3: 
-Start typing `unique_countries <- gap %>%` and see what suggestions Copilot gives you. You may need to wait a second for the suggestion to appear or continue typing. Click `Tab` to accept the suggestion. This should complete the code to create a vector of unique countries in the `gap` data frame.
+Start typing `unique_countries <- ` and see what suggestions Copilot gives you. You may need to wait a second for the suggestion to appear or continue typing. Click `Tab` to accept the suggestion. This should complete the code to create a vector of unique countries in the `gap` data frame.
 ```{r}
 # Start typing here
 ```
